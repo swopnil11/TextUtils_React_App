@@ -1,0 +1,12 @@
+.Footer {
+  text-align: center;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+
+.Footer_component {
+  margin-top: auto;
+}

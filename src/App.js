@@ -1,7 +1,8 @@
-import './App.css';
+import './components/Footer.css';
 import About from './components/About';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
+import Footer from './components/Footer';
 import React, { useState } from 'react';
 import {
   BrowserRouter,
@@ -34,7 +35,11 @@ function App() {
             <Route exact path="/" element={<TextForm heading="Try TextUtils - Word Counter, Character Counter And More" mode={mode}/>}></Route>
           </Routes>
         </div>
-      </BrowserRouter>  
+        <div className = "Footer">
+          <Footer mode={mode} />
+        </div>
+      </BrowserRouter>
+        
     </>
   );
 }
